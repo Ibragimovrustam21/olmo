@@ -68,7 +68,7 @@ export const Navbar = () => {
           <div className='navbar-menu-item'>
             <div>
               <h3>
-                <a href='/' className='n-Home'>Home</a>
+                <Link to='/' className='n-Home'>Home</Link>
               </h3>
             </div>
             <div className='about-menu-hover about' onClick={(e) => addClassDF('0')}>
@@ -95,38 +95,38 @@ export const Navbar = () => {
                 <div>
                   <ul>
                     <li><Link to='/about-us'>About Us </Link></li>
-                    <li><a href='/features'>Features & Addons </a></li>
-                    <li><a href='/pricing'>Pricing Packages </a></li>
-                    <li><a href='/download'>Download Page </a></li>
-                    <li><a href='/our-projects'>Our Projects </a></li>
-                    <li><a href='/project-details'>Project Details </a></li>
+                    <li><Link to='/pricing'>Pricing Packages </Link></li>
+                    <li><Link to='/download'>Download Page </Link></li>
+                    <li><Link to='/our-projects'>Our Projects </Link></li>
+                    <li><Link to='/project-details'>Project Details </Link></li>
+                    <li><Link to='/features'>Features & Addons </Link></li>
                   </ul>
                 </div>
                 <div>
                   <ul>
-                    <li><a href='/meet-the-team'>Meet the Team</a></li>
-                    <li><a href='/faqs'>FAQs Page</a></li>
-                    <li><a href='/blog-listing'>Blog Listing</a></li>
-                    <li><a href='/single-block-post'>Single Block Post</a></li>
-                    <li><a href='/terms-privacy'>Terms & Privacy</a></li>
-                    <li><a href='/contactUs'>Contact Us</a></li>
+                    <li><Link to='/meet-the-team'>Meet the Team</Link></li>
+                    <li><Link to='/faqs'>FAQs Page</Link></li>
+                    <li><Link to='/blog-listing'>Blog Listing</Link></li>
+                    <li><Link to='/single-block-post'>Single Block Post</Link></li>
+                    <li><Link to='/terms-privacy'>Terms & Privacy</Link></li>
+                    <li><Link to='/contactUs'>Contact Us</Link></li>
                   </ul>
                 </div>
               </div>
             </div>
             <div>
               <h3>
-                <a href='/features'>Features</a>
+                <Link to='/features'>Features</Link>
               </h3>
             </div>
             <div>
               <h3>
-                <a href='pricing'>Pricing</a>
+                <Link to='pricing'>Pricing</Link>
               </h3>
             </div>
             <div>
               <h3>
-                <a href='/faqs' >FAQs</a>
+                <Link to='/faqs' >FAQs</Link>
               </h3>
             </div>
           </div>
