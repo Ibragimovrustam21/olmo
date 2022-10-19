@@ -3,6 +3,7 @@ import { useHistory } from 'react-router'
 import $ from 'jquery'
 import '../css/navbar.css'
 import { Toolbar } from '@mui/material'
+import { Link } from 'react-router-dom'
 
 export const anime = (a) => {
   let b = ''
@@ -93,7 +94,7 @@ export const Navbar = () => {
                 <span className='qirra'></span>
                 <div>
                   <ul>
-                    <li><a href='/about-us'>About Us </a></li>
+                    <li><Link to='/about-us'>About Us </Link></li>
                     <li><a href='/features'>Features & Addons </a></li>
                     <li><a href='/pricing'>Pricing Packages </a></li>
                     <li><a href='/download'>Download Page </a></li>
